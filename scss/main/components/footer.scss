@@ -1,0 +1,62 @@
+.site-footer {
+    .widget_nav_menu {
+        .menu-item {
+            a {
+                font-size: 14px;
+                line-height: 22px;
+                text-decoration: none;
+            }
+        }
+    }
+    .footer-bar {
+        width: 100%;
+        text-align: left;
+
+        h2 {
+            color: var(--white);
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .app-btns {
+            display: flex;
+            align-items: center;
+            a {
+                margin: 0 15px 15px 0;
+            }
+        }
+    }
+    .footer-widgets {
+        @media only screen and (max-width: 860px) {
+            .footer-widgets-container {
+                padding-right: 15px;
+                padding-left: 15px;
+
+                .inside-footer-widgets {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+    
+                    > div {
+                        flex: unset;
+                        width: 100%;
+                        max-width: 50%;
+                        &:nth-child(odd) {
+                            padding-right: 5px;
+                        }
+                        &:nth-child(even) {
+                            padding-left: 5px;
+                        }
+                        &:last-child {
+                            padding: 0;
+                            text-align: center;
+                        }
+                    }
+                } 
+                .widget-title {
+                    margin-bottom: 15px;
+                }
+            }
+            
+        }
+    }
+}

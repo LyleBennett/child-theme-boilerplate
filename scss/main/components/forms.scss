@@ -1,0 +1,14 @@
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], select{
+    border-radius: 50px;
+    width: 100%;
+}
+// input type number appera as text
+input[type="number"]{
+   appearance: textfield;
+}
+.dropdown-arrow{
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin-left: 10px;
+}

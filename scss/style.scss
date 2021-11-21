@@ -1,0 +1,18 @@
+/*!
+ Theme Name:   child
+ Theme URI:    https://github.com/LyleBennett
+ Description:  GeneratePress child theme
+ Author:       Lyle
+ Author URI:   https://github.com/LyleBennett
+ Template:     generatepress-child
+ Version:      0.1
+*/
+
+//note the ! at the beggining of the comment...this stops the compiler from removing the comment
+@import "main/fonts.scss";
+@import "main/variables.scss";
+@import "main/global.scss";
+@import "main/components.scss";
+
+
+
