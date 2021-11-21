@@ -4,20 +4,7 @@
 My boilerplate solution do developing a flexible WordPress child theme leveraging GeneratePress as a parent theme. Recommended for developing locally, then uploading the built files.
 
 
-## Installation
-
-Clone this repo into the themes folder of your WordPress install.
-
-Make sure you have a parent theme as well (this is child theme of GeneratePress)
-
-Make sure you have Node.js installed on your local machine and run the following commands.
-```bash
-  cd /your/local/clone/of/this/project
-  npm install
-  npm install --global gulp-cli
-```
-
-## Run Locally
+## Install & Run Locally
 
 Make sure you have a parent theme as well (this is child theme of GeneratePress)
 
