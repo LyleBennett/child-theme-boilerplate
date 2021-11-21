@@ -37,5 +37,5 @@ Start the compiler
 ## Features
 
 - Can use scss which is compiled into style.css and editor-styles.css
-- The theme js is also minified, could even create multiple js files which will be concatenated and minified into 1 js file which is enqued and localized for wp-ajax requests.
-- Works with GeneratePress (my personal favourite theme at the moment)
+- The theme js is also minified, can create multiple js files which will be concatenated and minified into 1 js file which is enqued and localized for wp-ajax requests.
+- Works with GeneratePress, change "Template" in style.scss to the name of your parent theme if needed.
