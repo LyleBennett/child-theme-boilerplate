@@ -1,14 +1,14 @@
 {
-  "name": "child-child",
+  "name": "child",
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Webworxdesign/child-child.git"
+    "url": "git+https://github.com/LyleBennett/child-theme-boilerplate.git"
   },
-  "author": "Webworxdesign",
+  "author": "Lyle",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
